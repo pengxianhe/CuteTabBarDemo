@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3658AAB91AE28716003A2DB9 /* MyTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3658AAB81AE28716003A2DB9 /* MyTabViewController.m */; };
+		3658AABC1AE28A6D003A2DB9 /* MyTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3658AABB1AE28A6D003A2DB9 /* MyTabbarItem.m */; };
+		36BF0BF21AE2761700A94AB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BF0BF11AE2761700A94AB2 /* main.m */; };
+		36BF0BF51AE2761700A94AB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BF0BF41AE2761700A94AB2 /* AppDelegate.m */; };
+		36BF0BF81AE2761700A94AB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BF0BF71AE2761700A94AB2 /* ViewController.m */; };
+		36BF0BFB1AE2761700A94AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BF0BF91AE2761700A94AB2 /* Main.storyboard */; };
+		36BF0BFD1AE2761700A94AB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BF0BFC1AE2761700A94AB2 /* Images.xcassets */; };
+		36BF0C001AE2761700A94AB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36BF0BFE1AE2761700A94AB2 /* LaunchScreen.xib */; };
+		36BF0C0C1AE2761700A94AB2 /* _____TabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BF0C0B1AE2761700A94AB2 /* _____TabbarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36BF0C061AE2761700A94AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36BF0BE41AE2761700A94AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36BF0BEB1AE2761700A94AB2;
+			remoteInfo = "网易云音乐Tabbar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3658AAB71AE28716003A2DB9 /* MyTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabViewController.h; sourceTree = "<group>"; };
+		3658AAB81AE28716003A2DB9 /* MyTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabViewController.m; sourceTree = "<group>"; };
+		3658AABA1AE28A6D003A2DB9 /* MyTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbarItem.h; sourceTree = "<group>"; };
+		3658AABB1AE28A6D003A2DB9 /* MyTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbarItem.m; sourceTree = "<group>"; };
+		36BF0BEC1AE2761700A94AB2 /* 网易云音乐Tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易云音乐Tabbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BF0BF01AE2761700A94AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BF0BF11AE2761700A94AB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36BF0BF31AE2761700A94AB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36BF0BF41AE2761700A94AB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36BF0BF61AE2761700A94AB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36BF0BF71AE2761700A94AB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36BF0BFA1AE2761700A94AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36BF0BFC1AE2761700A94AB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36BF0BFF1AE2761700A94AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		36BF0C051AE2761700A94AB2 /* 网易云音乐TabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易云音乐TabbarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BF0C0A1AE2761700A94AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BF0C0B1AE2761700A94AB2 /* _____TabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____TabbarTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36BF0BE91AE2761700A94AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BF0C021AE2761700A94AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36BF0BE31AE2761700A94AB2 = {
+			isa = PBXGroup;
+			children = (
+				36BF0BEE1AE2761700A94AB2 /* 网易云音乐Tabbar */,
+				36BF0C081AE2761700A94AB2 /* 网易云音乐TabbarTests */,
+				36BF0BED1AE2761700A94AB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36BF0BED1AE2761700A94AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36BF0BEC1AE2761700A94AB2 /* 网易云音乐Tabbar.app */,
+				36BF0C051AE2761700A94AB2 /* 网易云音乐TabbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36BF0BEE1AE2761700A94AB2 /* 网易云音乐Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				36BF0BF31AE2761700A94AB2 /* AppDelegate.h */,
+				36BF0BF41AE2761700A94AB2 /* AppDelegate.m */,
+				36BF0BF61AE2761700A94AB2 /* ViewController.h */,
+				36BF0BF71AE2761700A94AB2 /* ViewController.m */,
+				3658AAB71AE28716003A2DB9 /* MyTabViewController.h */,
+				3658AAB81AE28716003A2DB9 /* MyTabViewController.m */,
+				3658AABA1AE28A6D003A2DB9 /* MyTabbarItem.h */,
+				3658AABB1AE28A6D003A2DB9 /* MyTabbarItem.m */,
+				36BF0BF91AE2761700A94AB2 /* Main.storyboard */,
+				36BF0BFC1AE2761700A94AB2 /* Images.xcassets */,
+				36BF0BFE1AE2761700A94AB2 /* LaunchScreen.xib */,
+				36BF0BEF1AE2761700A94AB2 /* Supporting Files */,
+			);
+			path = "网易云音乐Tabbar";
+			sourceTree = "<group>";
+		};
+		36BF0BEF1AE2761700A94AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36BF0BF01AE2761700A94AB2 /* Info.plist */,
+				36BF0BF11AE2761700A94AB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36BF0C081AE2761700A94AB2 /* 网易云音乐TabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				36BF0C0B1AE2761700A94AB2 /* _____TabbarTests.m */,
+				36BF0C091AE2761700A94AB2 /* Supporting Files */,
+			);
+			path = "网易云音乐TabbarTests";
+			sourceTree = "<group>";
+		};
+		36BF0C091AE2761700A94AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36BF0C0A1AE2761700A94AB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36BF0BEB1AE2761700A94AB2 /* 网易云音乐Tabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BF0C0F1AE2761700A94AB2 /* Build configuration list for PBXNativeTarget "网易云音乐Tabbar" */;
+			buildPhases = (
+				36BF0BE81AE2761700A94AB2 /* Sources */,
+				36BF0BE91AE2761700A94AB2 /* Frameworks */,
+				36BF0BEA1AE2761700A94AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易云音乐Tabbar";
+			productName = "网易云音乐Tabbar";
+			productReference = 36BF0BEC1AE2761700A94AB2 /* 网易云音乐Tabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36BF0C041AE2761700A94AB2 /* 网易云音乐TabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BF0C121AE2761700A94AB2 /* Build configuration list for PBXNativeTarget "网易云音乐TabbarTests" */;
+			buildPhases = (
+				36BF0C011AE2761700A94AB2 /* Sources */,
+				36BF0C021AE2761700A94AB2 /* Frameworks */,
+				36BF0C031AE2761700A94AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36BF0C071AE2761700A94AB2 /* PBXTargetDependency */,
+			);
+			name = "网易云音乐TabbarTests";
+			productName = "网易云音乐TabbarTests";
+			productReference = 36BF0C051AE2761700A94AB2 /* 网易云音乐TabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36BF0BE41AE2761700A94AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "彭显鹤";
+				TargetAttributes = {
+					36BF0BEB1AE2761700A94AB2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					36BF0C041AE2761700A94AB2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 36BF0BEB1AE2761700A94AB2;
+					};
+				};
+			};
+			buildConfigurationList = 36BF0BE71AE2761700A94AB2 /* Build configuration list for PBXProject "网易云音乐Tabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36BF0BE31AE2761700A94AB2;
+			productRefGroup = 36BF0BED1AE2761700A94AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36BF0BEB1AE2761700A94AB2 /* 网易云音乐Tabbar */,
+				36BF0C041AE2761700A94AB2 /* 网易云音乐TabbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36BF0BEA1AE2761700A94AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BF0BFB1AE2761700A94AB2 /* Main.storyboard in Resources */,
+				36BF0C001AE2761700A94AB2 /* LaunchScreen.xib in Resources */,
+				36BF0BFD1AE2761700A94AB2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BF0C031AE2761700A94AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36BF0BE81AE2761700A94AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3658AAB91AE28716003A2DB9 /* MyTabViewController.m in Sources */,
+				36BF0BF81AE2761700A94AB2 /* ViewController.m in Sources */,
+				36BF0BF51AE2761700A94AB2 /* AppDelegate.m in Sources */,
+				3658AABC1AE28A6D003A2DB9 /* MyTabbarItem.m in Sources */,
+				36BF0BF21AE2761700A94AB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BF0C011AE2761700A94AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BF0C0C1AE2761700A94AB2 /* _____TabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36BF0C071AE2761700A94AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36BF0BEB1AE2761700A94AB2 /* 网易云音乐Tabbar */;
+			targetProxy = 36BF0C061AE2761700A94AB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36BF0BF91AE2761700A94AB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36BF0BFA1AE2761700A94AB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36BF0BFE1AE2761700A94AB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36BF0BFF1AE2761700A94AB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36BF0C0D1AE2761700A94AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36BF0C0E1AE2761700A94AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36BF0C101AE2761700A94AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易云音乐Tabbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36BF0C111AE2761700A94AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易云音乐Tabbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36BF0C131AE2761700A94AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "网易云音乐TabbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易云音乐Tabbar.app/网易云音乐Tabbar";
+			};
+			name = Debug;
+		};
+		36BF0C141AE2761700A94AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "网易云音乐TabbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易云音乐Tabbar.app/网易云音乐Tabbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36BF0BE71AE2761700A94AB2 /* Build configuration list for PBXProject "网易云音乐Tabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BF0C0D1AE2761700A94AB2 /* Debug */,
+				36BF0C0E1AE2761700A94AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BF0C0F1AE2761700A94AB2 /* Build configuration list for PBXNativeTarget "网易云音乐Tabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BF0C101AE2761700A94AB2 /* Debug */,
+				36BF0C111AE2761700A94AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BF0C121AE2761700A94AB2 /* Build configuration list for PBXNativeTarget "网易云音乐TabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BF0C131AE2761700A94AB2 /* Debug */,
+				36BF0C141AE2761700A94AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36BF0BE41AE2761700A94AB2 /* Project object */;
+}
